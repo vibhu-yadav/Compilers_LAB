@@ -1,0 +1,47 @@
+// THE REGISTERS USED BY GCC
+
+01. rax            0x0                 0
+02. rbx            0x0                 0
+04. rcx            0x0                 0
+04. rdx            0x0                 0
+05. rsi            0x0                 0
+06. rdi            0x0                 0
+07. rbp            0x0                 0x0
+08. rsp            0x7fffffffdff0      0x7fffffffdff0
+09. r8             0x0                 0
+10. r9             0x0                 0
+11. r10            0x0                 0
+12. r11            0x0                 0
+13. r12            0x0                 0
+14. r13            0x0                 0
+15. r14            0x0                 0
+16. r15            0x0                 0
+17. rip            0x7ffff7fe32b0      0x7ffff7fe32b0 <_start>
+18. eflags         0x202               [ IF ]
+19. cs             0x33                51
+20. ss             0x2b                43
+21. ds             0x0                 0
+22. es             0x0                 0
+23. fs             0x0                 0
+24.gs             0x0                 0
+25.st0            0                   (raw 0x00000000000000000000)
+26.st1            0                   (raw 0x00000000000000000000)
+27.st2            0                   (raw 0x00000000000000000000)
+28.st3            0                   (raw 0x00000000000000000000)
+29.st4            0                   (raw 0x00000000000000000000)
+30.st5            0                   (raw 0x00000000000000000000)
+31.st6            0                   (raw 0x00000000000000000000)
+32.st7            0                   (raw 0x00000000000000000000)
+33.fctrl          0x37f               895
+34.fstat          0x0                 0
+35.ftag           0xffff              65535
+36.fiseg          0x0                 0
+37.fioff          0x0                 0
+38.foseg          0x0                 0
+39.fooff          0x0                 0
+40.fop            0x0                 0
+41.mxcsr          0x1f80              [ IM DM ZM OM UM PM ]
+
+ymm [0-16] {42 - 47} 
+
+==> Total 48 registers used by compiler
