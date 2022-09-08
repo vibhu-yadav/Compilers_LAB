@@ -1,7 +1,7 @@
 #include "myl.h"
 
 #define INT_MAX __INT32_MAX__
-#define INT_MIN -INT_MAX
+#define INT_MIN (-INT_MAX - 1)
 
 int main(){
 
@@ -17,10 +17,9 @@ int main(){
     }
 
     printStr("\n\n#### Testing printInt ####\n");
-    int ints[11] = {0, 1, -1, 12, -12, 1234, -1234, 12345, -12345, INT_MAX, INT_MIN};
+    int ints[11] = {0, 1, -1, 12, -12, 1234, -1234, 12345, -12345, INT_MAX, INT_MIN+1};
 
     for(int i=0; i<11; i++){
-        printStr("\""); 
         int ret = printInt(ints[i]);
         printStr("\" => printed ");
         printInt(ret);
@@ -28,11 +27,10 @@ int main(){
     }
 
 
-    printStr("\n\n#### Testing printFlt ####\n");
+    printStr("#### Testing printFlt ####\n");
     float floats[10] = {0.F, -12.34F, 12.345F, -2.F, 2.F, 0.1234F, -0.1234F, 123.456F, 0.001F, -0.0106F};
 
     for(int i=0; i<10; i++){
-        printStr("\""); 
         int ret = printFlt(floats[i]);
         printStr("\" => printed ");
         printInt(ret);
@@ -72,9 +70,6 @@ int main(){
         printStr("\nEnter -1 to terminate, anything else to continue: ");
         readInt(&loop);
     } while(loop != -1);
-
-
-    printStr("\n\n#### Thanks for testing, Have a Great Day!! ####\n");
 
     return 0;
 }

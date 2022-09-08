@@ -1,0 +1,297 @@
+< MULTI_LINE_COMMENT_BEGINS, /* >
+
+Compilers-Lab Assignment-3
+Team Members : Vibhu, Abhibhu Prakash
+Roll Numbers: 20CS10072, 20CS10002
+
+< MULTI_LINE_COMMENT_ENDS, */ >
+< PUNCTUATOR, # >
+< IDENTIFIER, include >
+< PUNCTUATOR, < >
+< IDENTIFIER, stdio >
+< PUNCTUATOR, . >
+< IDENTIFIER, h >
+< PUNCTUATOR, > >
+< PUNCTUATOR, # >
+< IDENTIFIER, include >
+< PUNCTUATOR, < >
+< IDENTIFIER, complex >
+< PUNCTUATOR, . >
+< IDENTIFIER, h >
+< PUNCTUATOR, > >
+< KEYWORD, typedef >
+< KEYWORD, struct >
+< PUNCTUATOR, { >
+< KEYWORD, char >
+< IDENTIFIER, course >
+< PUNCTUATOR, [ >
+< INTEGER CONSTANT, 15 >
+< PUNCTUATOR, ] >
+< PUNCTUATOR, ; >
+< KEYWORD, int >
+< IDENTIFIER, assignment_no >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< IDENTIFIER, asgn >
+< PUNCTUATOR, ; >
+< KEYWORD, typedef >
+< IDENTIFIER, enum >
+< PUNCTUATOR, { >
+< IDENTIFIER, Monday >
+< PUNCTUATOR, , >
+< IDENTIFIER, Tuesday >
+< PUNCTUATOR, , >
+< IDENTIFIER, Wednesday >
+< PUNCTUATOR, , >
+< IDENTIFIER, Thursday >
+< PUNCTUATOR, , >
+< IDENTIFIER, Friday >
+< PUNCTUATOR, , >
+< IDENTIFIER, Saturday >
+< PUNCTUATOR, , >
+< IDENTIFIER, Sunday >
+< PUNCTUATOR, } >
+< IDENTIFIER, weekday >
+< PUNCTUATOR, ; >
+< KEYWORD, typedef >
+< KEYWORD, union >
+< PUNCTUATOR, { >
+< KEYWORD, int >
+< IDENTIFIER, a >
+< PUNCTUATOR, ; >
+< KEYWORD, float >
+< IDENTIFIER, b >
+< PUNCTUATOR, ; >
+< KEYWORD, char >
+< IDENTIFIER, c >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< IDENTIFIER, uni >
+< PUNCTUATOR, ; >
+< KEYWORD, void >
+< IDENTIFIER, swap >
+< PUNCTUATOR, ( >
+< KEYWORD, int >
+< PUNCTUATOR, * >
+< IDENTIFIER, a >
+< PUNCTUATOR, , >
+< KEYWORD, int >
+< PUNCTUATOR, * >
+< IDENTIFIER, b >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, { >
+< KEYWORD, int >
+< IDENTIFIER, temp >
+< PUNCTUATOR, = >
+< PUNCTUATOR, * >
+< IDENTIFIER, a >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, * >
+< IDENTIFIER, a >
+< PUNCTUATOR, = >
+< PUNCTUATOR, * >
+< IDENTIFIER, b >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, * >
+< IDENTIFIER, b >
+< PUNCTUATOR, = >
+< IDENTIFIER, temp >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< KEYWORD, int >
+< IDENTIFIER, main >
+< PUNCTUATOR, ( >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, { >
+< IDENTIFIER, asgn >
+< IDENTIFIER, current >
+< PUNCTUATOR, = >
+< PUNCTUATOR, { >
+< PUNCTUATOR, . >
+< IDENTIFIER, course >
+< PUNCTUATOR, = >
+< STRING LITERAL, "Compilers Lab" >
+< PUNCTUATOR, , >
+< PUNCTUATOR, . >
+< IDENTIFIER, assignment_no >
+< PUNCTUATOR, = >
+< INTEGER CONSTANT, 3 >
+< PUNCTUATOR, } >
+< PUNCTUATOR, ; >
+< IDENTIFIER, weekday >
+< IDENTIFIER, today >
+< PUNCTUATOR, = >
+< IDENTIFIER, Wednesday >
+< PUNCTUATOR, ; >
+< KEYWORD, char >
+< IDENTIFIER, roll_no >
+< PUNCTUATOR, [ >
+< PUNCTUATOR, ] >
+< PUNCTUATOR, = >
+< STRING LITERAL, "20CS10072" >
+< PUNCTUATOR, ; >
+< KEYWORD, int >
+< IDENTIFIER, bytes >
+< PUNCTUATOR, = >
+< KEYWORD, sizeof >
+< PUNCTUATOR, ( >
+< IDENTIFIER, roll_no >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< IDENTIFIER, const >
+< KEYWORD, int >
+< IDENTIFIER, size >
+< PUNCTUATOR, = >
+< IDENTIFIER, bytes >
+< PUNCTUATOR, / >
+< KEYWORD, sizeof >
+< PUNCTUATOR, ( >
+< KEYWORD, char >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< KEYWORD, char >
+< IDENTIFIER, name >
+< PUNCTUATOR, [ >
+< PUNCTUATOR, ] >
+< PUNCTUATOR, = >
+< STRING LITERAL, "Vibhu" >
+< PUNCTUATOR, ; >
+< KEYWORD, char >
+< IDENTIFIER, initial >
+< PUNCTUATOR, = >
+< CHARACTER CONSTANT, 'A' >
+< PUNCTUATOR, ; >
+< KEYWORD, short >
+< KEYWORD, int >
+< IDENTIFIER, age >
+< PUNCTUATOR, = >
+< INTEGER CONSTANT, 20 >
+< PUNCTUATOR, ; >
+< IDENTIFIER, unsigned >
+< KEYWORD, int >
+< IDENTIFIER, year >
+< PUNCTUATOR, = >
+< INTEGER CONSTANT, 2022 >
+< PUNCTUATOR, ; >
+< KEYWORD, float >
+< IDENTIFIER, f >
+< PUNCTUATOR, = >
+< FLOAT CONSTANT, 06.90 >
+< PUNCTUATOR, ; >
+< KEYWORD, double >
+< IDENTIFIER, d >
+< PUNCTUATOR, = >
+< FLOAT CONSTANT, 123.456 >
+< PUNCTUATOR, ; >
+< KEYWORD, char >
+< IDENTIFIER, buff >
+< PUNCTUATOR, [ >
+< INTEGER CONSTANT, 30 >
+< PUNCTUATOR, ] >
+< PUNCTUATOR, = >
+< STRING LITERAL, "Next String would be empty.\n\t" >
+< PUNCTUATOR, ; >
+< KEYWORD, if >
+< PUNCTUATOR, ( >
+< IDENTIFIER, age >
+< PUNCTUATOR, >= >
+< INTEGER CONSTANT, 20 >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, { >
+< IDENTIFIER, printf >
+< PUNCTUATOR, ( >
+< STRING LITERAL, "You're old enough to do the assignment.\n" >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< KEYWORD, else >
+< PUNCTUATOR, { >
+< IDENTIFIER, printf >
+< PUNCTUATOR, ( >
+< STRING LITERAL, "Grow up first!\n" >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< MULTI_LINE_COMMENT_BEGINS, /* >
+
+    This is a multi-line comment that essentially does nothing.
+    Even this line is pointless but it had to be there to actually make it a "multi-line" comment.
+    
+< MULTI_LINE_COMMENT_ENDS, */ >
+< KEYWORD, switch >
+< PUNCTUATOR, ( >
+< IDENTIFIER, year >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, { >
+< KEYWORD, case >
+< INTEGER CONSTANT, 2022 >
+< PUNCTUATOR, : >
+< IDENTIFIER, printf >
+< PUNCTUATOR, ( >
+< STRING LITERAL, "You're in your 3rd year.\n" >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< KEYWORD, break >
+< PUNCTUATOR, ; >
+< KEYWORD, default >
+< PUNCTUATOR, : >
+< IDENTIFIER, printf >
+< PUNCTUATOR, ( >
+< STRING LITERAL, "You're not in your 3rd year.\n" >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< KEYWORD, break >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< KEYWORD, void >
+< PUNCTUATOR, * >
+< IDENTIFIER, ptr >
+< PUNCTUATOR, = >
+< IDENTIFIER, NULL >
+< PUNCTUATOR, ; >
+< KEYWORD, do >
+< PUNCTUATOR, { >
+< IDENTIFIER, printf >
+< PUNCTUATOR, ( >
+< STRING LITERAL, "This is a do-while loop.\n" >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
+< KEYWORD, while >
+< PUNCTUATOR, ( >
+< IDENTIFIER, ptr >
+< PUNCTUATOR, != >
+< IDENTIFIER, NULL >
+< PUNCTUATOR, ) >
+< PUNCTUATOR, ; >
+< IDENTIFIER, _Bool >
+< IDENTIFIER, flag >
+< PUNCTUATOR, = >
+< INTEGER CONSTANT, 1 >
+< PUNCTUATOR, ; >
+< IDENTIFIER, _Complex >
+< KEYWORD, float >
+< IDENTIFIER, c >
+< PUNCTUATOR, = >
+< FLOAT CONSTANT, 1.0 >
+< PUNCTUATOR, + >
+< FLOAT CONSTANT, 2.0 >
+< PUNCTUATOR, * >
+< IDENTIFIER, I >
+< PUNCTUATOR, ; >
+< IDENTIFIER, auto >
+< IDENTIFIER, auto_var >
+< PUNCTUATOR, = >
+< STRING LITERAL, "This is an auto variable." >
+< PUNCTUATOR, ; >
+< KEYWORD, static >
+< IDENTIFIER, const >
+< KEYWORD, double >
+< IDENTIFIER, e >
+< PUNCTUATOR, = >
+< FLOAT CONSTANT, 2.7818284590 >
+< PUNCTUATOR, ; >
+< KEYWORD, return >
+< INTEGER CONSTANT, 0 >
+< PUNCTUATOR, ; >
+< PUNCTUATOR, } >
