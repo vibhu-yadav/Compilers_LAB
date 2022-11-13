@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "asgn5_20cs10002_20cs10072_translator.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
